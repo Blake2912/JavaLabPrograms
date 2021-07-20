@@ -1,9 +1,6 @@
 import java.util.Scanner;
 
 public class Program10 {
-
-    public static final int INFINITY = 999;
-
     public static void WarshallAlgorithm(int [][]matrix,int n){
         int [][]DistanceMatrix = new int[n+1][n+1];
         // Making a copy of the Main matrix to the distance matrix to perform operations
@@ -31,10 +28,7 @@ public class Program10 {
             }
             System.out.println();
         }
-
     }
-
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the number of vertices:");
@@ -49,7 +43,6 @@ public class Program10 {
                 }
             }
         }
-
         // Call the functions of the Algorithm
         WarshallAlgorithm(WeightedMatrix,n);
     }
