@@ -74,6 +74,4 @@ public class KruskalAlgorithm {
 8 0 3 2
 999 3 0 9
 1 2 9 0
-
-https://meet.google.com/shb-iwvu-ahk
  */
