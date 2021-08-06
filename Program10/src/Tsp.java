@@ -30,9 +30,7 @@ public class Tsp{
     static int tsp_sp(int[][] c, int[] tour, int start, int n)
     {
         int[] min_tour =new int[10];
-        int[] temp =new
-
-                        int[10];
+        int[] temp =new int[10];
         int min_cost=999;
         int cost;
         int i;
