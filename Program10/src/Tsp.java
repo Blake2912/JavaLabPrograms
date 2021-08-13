@@ -1,7 +1,7 @@
 import java.util.*;
 public class Tsp{
     public static void main(String[] args) {
-        int[][] c =new int[10][10];
+        int[][] c =new int[10][10]; // Cost matrix
         int[] tour =new int[10];
         Scanner sc = new Scanner(System.in);
         int i,j,cost;
